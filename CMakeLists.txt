@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(safety_field)
+project(planar_lidar_safety_field)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -17,13 +17,13 @@ include_directories(
 )
 
 # Create executable
-add_executable(lidar_safety_node
+add_executable(planar_lidar_safety_node
   src/main.cpp
-  src/planar_lidar_lidar_safety.cpp
+  src/planar_lidar_safety.cpp
 )
 
 # Link dependencies
-ament_target_dependencies(lidar_safety_node
+ament_target_dependencies(planar_lidar_safety_node
   rclcpp
   sensor_msgs
   std_msgs
@@ -31,7 +31,7 @@ ament_target_dependencies(lidar_safety_node
 
 # Install executable
 install(TARGETS
-  lidar_safety_node
+  planar_lidar_safety_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
