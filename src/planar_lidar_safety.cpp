@@ -1,4 +1,4 @@
-#include "safety_field/planar_lidar_safety.hpp"
+#include "planar_lidar_safety_field/planar_lidar_safety.hpp"
 /*
 Author: Dipanjan Maji
 Module: Lidar Safety
