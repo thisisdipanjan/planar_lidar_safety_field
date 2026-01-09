@@ -19,7 +19,7 @@ include_directories(
 # Create executable
 add_executable(lidar_safety_node
   src/main.cpp
-  src/lidar_safety.cpp
+  src/planar_lidar_lidar_safety.cpp
 )
 
 # Link dependencies
