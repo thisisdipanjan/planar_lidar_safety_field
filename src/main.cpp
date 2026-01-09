@@ -1,4 +1,4 @@
-#include "planar_safety_field/planar_lidar_safety.hpp"
+#include "planar_lidar_safety_field/planar_lidar_safety.hpp"
 
 int main(int argc, char * argv[]){
     rclcpp::init(argc, argv);
