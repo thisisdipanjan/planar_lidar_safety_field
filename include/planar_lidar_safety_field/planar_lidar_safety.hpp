@@ -1,11 +1,11 @@
-#ifndef LIDAR_SAFETY_HPP
-#define LIDAR_SAFETY_HPP
+#ifndef PLANAR_LIDAR_SAFETY_FIELD_HPP
+#define PLANAR_LIDAR_SAFETY_FIELD_HPP
 
 
 #include <cmath>
 #include <vector>
 #include <rclcpp/node.hpp>
-#include<rclcpp/rclcpp.hpp>
+#include <rclcpp/rclcpp.hpp>
 #include <std_msgs/msg/string.hpp>
 #include <sensor_msgs/msg/laser_scan.hpp>
 
